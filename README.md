@@ -1,22 +1,34 @@
-🧩 1️⃣ Acesse a pasta do projeto
-cd C:\Users\acer\Downloads\Game Exemplo
+# 🧩 SLIME ESCAPE — GUIA DE EXECUÇÃO COMPLETO
+# Caminho base: C:\Users\acer\Downloads\jogo-do-slime\Game
 
-⚙️ 2️⃣ Crie o ambiente virtual dentro da pasta onde clonou o repositorio
-python -m venv venv
+# 1 Acesse a pasta principal do projeto
+cd C:\Users\acer\Downloads\jogo-do-slime\Game
 
-🚀 3️⃣ Ative o ambiente virtual
-venv\Scripts\activate
-
-
-Quando ativar, o terminal mostrará:
-
-(venv) C:\Users\acer\Downloads\Game>
-
-📦 4️⃣ Instale as dependências
+# 2Instale as dependências necessárias
 pip install pgzero pillow
 
-📁 5️⃣ Entre na pasta do jogo
+# 3 Entre na pasta do jogo
 cd slime_escape
 
-🎮 6️⃣ Execute o jogo
+# 6️4 Execute o jogo
 python -m pgzero game.py
+
+🕹️ Instruções do jogo — Slime Escape
+
+🎮 Objetivo:
+Controle o slime verde e leve-o até o portal mágico, evitando cair das plataformas ou tocar nos inimigos.
+
+🎯 Controles
+Tecla	Ação
+← / →	Mover o slime para esquerda/direita
+Espaço	Pular
+ESC	Sair do jogo (ou feche a janela)
+🎵 Menu principal
+
+Quando o jogo inicia, o menu exibe três opções:
+
+🕹️ Start Game → inicia a partida
+
+🎧 Music ON/OFF → liga ou desliga a música
+
+❌ Exit → fecha o jogo
