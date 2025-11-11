@@ -1,44 +1,78 @@
-# jogo-do-slime
-Instruções no README
+# 🧩 Slime Escape
 
-🧩 Slime Escape
+Um mini jogo em **Python + Pygame Zero**, onde você controla um **slime aventureiro** que precisa escapar pulando sobre plataformas e evitando inimigos até alcançar o **portal mágico da vitória!** 🟩✨  
 
-Um mini jogo em Python feito com Pygame Zero, onde você controla um slime verde que precisa escapar pulando sobre plataformas e evitando inimigos até alcançar o portal mágico!
+---
 
-🎮 Recursos
+## 🎮 Recursos do jogo
+- Herói animado com sprites
+- Movimento lateral e pulo com física de gravidade
+- Inimigos patrulhando o mapa
+- Portal de vitória com transição
+- Menu principal com botões:
+  - 🕹️ **Start Game**
+  - 🎵 **Toggle Music**
+  - ❌ **Exit Game**
+- Sons e música de fundo
 
-Personagem animado e colorido
+---
 
-Sistema de pulo com gravidade realista
+## 🕹️ Controles
 
-Inimigos com movimentação lateral
+| Tecla | Ação |
+|-------|------|
+| ← / → | Move o slime |
+| Espaço | Pula |
 
-Portal de vitória com transição
+---
 
-Trilha sonora e efeitos sonoros integrados
+## ⚙️ Instalação e execução
 
-Interface de menu interativa (Start, Music, Exit)
+### 1️⃣ Clonar ou baixar o projeto
+Baixe este repositório ou clone via terminal:
 
-🕹️ Controles
+```bash
+git clone https://github.com/SEU-USUARIO/SlimeEscape.git
+cd SlimeEscape
+(ou simplesmente extraia o arquivo ZIP em uma pasta, por exemplo C:\Users\acer\Downloads\Game)
 
-← / → → mover o slime
+2️⃣ Criar o ambiente virtual
+Crie o ambiente dentro da pasta do jogo:
 
-Espaço → pular
+bash
 
-⚙️ Requisitos
+python -m venv venv
+3️⃣ Ativar o ambiente virtual
+No Windows (cmd):
 
-Python 3.10+
+bash
 
-Biblioteca Pygame Zero
+venv\Scripts\activate
+No PowerShell:
 
-Pillow (para geração das imagens, se necessário)
+bash
+Copiar código
+.\venv\Scripts\Activate.ps1
+Após ativar, você verá algo como:
 
-Instale as dependências:
+(venv) C:\Users\Downloads\Game>
+4️⃣ Instalar as dependências
+Com o venv ativo, instale os pacotes necessários:
+
+bash
 
 pip install pgzero pillow
+🔹 A biblioteca Pillow só é necessária se você for gerar ou editar as imagens do jogo.
 
-▶️ Como jogar
+5️⃣ Executar o jogo
+Entre na pasta do jogo:
 
-Execute no terminal:
+bash
 
-py -m pgzero game.py
+cd slime_escape
+E execute o jogo com:
+
+bash
+
+python -m pgzero game.py
+Se tudo estiver certo, a janela do jogo se abrirá com o menu principal 🎉
